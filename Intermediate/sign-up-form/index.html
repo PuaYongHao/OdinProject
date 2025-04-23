@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/norse" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="img-banner">
+        <img src="./images/leaf.avif" />
+        <div class="logo-div">
+          <img src="./images/odin-lined.png" />
+        </div>
+      </div>
+      <form>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p>You know you want to.</p>
+        <fieldset>
+          <p>Let's do this!</p>
+
+          <label for="first_name">FIRST NAME</label>
+          <input type="text" id="first_name" name="first_name" />
+
+          <label for="last_name">LAST NAME</label>
+          <input type="text" id="last_name" name="last_name" />
+
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="phone_number">PHONE NUMBER</label>
+          <input type="tel" id="phone_number" name="phone_number" />
+
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" name="password" />
+
+          <label for="confirm_password">CONFIRM PASSWORD</label>
+          <input
+            type="password"
+            id="confirm_password"
+            name="confirm_password"
+          />
+        </fieldset>
+        <button class="create-button" type="submit">Create Account</button>
+        <div>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
