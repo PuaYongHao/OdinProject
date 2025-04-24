@@ -1,0 +1,36 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* .img-banner:first-child {
+  width: 30%;
+} */
+
+/* 
+.form-section {
+  flex: 2 1 auto;
+} */
+
+.logo-div {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  /* position: absolute;
+  top: 30px;
+  width: 100%; */
+}
+
+.logo {
+  height: 200px;
+}
+
+.logo-font {
+  color: white;
+  font-family: "Norse", sans-serif;
+  font-size: 150px;
+  font-weight: bold;
+  margin: 0;
+}
