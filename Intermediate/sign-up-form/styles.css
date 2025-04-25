@@ -30,7 +30,82 @@
 .logo-font {
   color: white;
   font-family: "Norse", sans-serif;
-  font-size: 150px;
+  font-size: 10rem;
   font-weight: bold;
   margin: 0;
+}
+
+.text-section {
+  margin: 100px 0px 50px 50px;
+  width: 80%;
+}
+
+.text-section > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+fieldset {
+  padding: 0px 0px 50px 50px;
+  background-color: white;
+  box-shadow: 0px 0px 5px grey;
+  margin: 0px;
+  border: 0px;
+}
+
+fieldset > p {
+  font-size: 1.5rem;
+}
+
+.field-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 80px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+input {
+  border-color: #e5e7eb;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.action-section {
+  width: 30%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-button {
+  background-color: #596d48;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 30px 40px 0px 0px;
+  padding: 10px 30px;
+}
+
+p > a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
 }
