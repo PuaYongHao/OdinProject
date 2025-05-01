@@ -124,6 +124,10 @@ input:focus {
   padding: 10px 30px;
 }
 
+.create-button:disabled {
+  background-color: grey;
+}
+
 p > a {
   color: #596d48;
   text-decoration: none;
