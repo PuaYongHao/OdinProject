@@ -1,3 +1,5 @@
+const MAX_CHAR_ALLOWED = 9;
+
 const numButtonList = document.querySelectorAll(".num-button");
 const operatorButtonList = document.querySelectorAll(".operator-button");
 const clearButton = document.querySelector(".clear-button");
@@ -10,8 +12,6 @@ let operator;
 let operand1;
 let operand2;
 let enteredNewValue = false;
-
-const MAX_CHAR_ALLOWED = 9;
 
 function clear() {
   valueText.textContent = "0";
