@@ -9,6 +9,8 @@ body {
 img {
   height: 100%;
   width: 100%;
+  border-radius: 50%;
+  display: block;
 }
 
 svg {
@@ -67,6 +69,8 @@ svg {
 .header {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: 30% 70%;
 }
 
 .navigation-bar {
@@ -75,6 +79,7 @@ svg {
   align-items: center;
   justify-items: center;
   font-weight: bold;
+  height: 100%;
 }
 
 .navigation-bar > svg:first-child {
@@ -94,12 +99,15 @@ svg {
 }
 
 .avatar {
-  border-radius: 50%;
+  height: 100%;
+  overflow: auto;
 }
 
 .profile-bar {
   display: grid;
   grid-template-columns: repeat(10, 10%);
+  justify-items: center;
+  align-items: center;
 }
 
 .profile-bar > .avatar {
@@ -117,6 +125,18 @@ svg {
 
 .button-section {
   grid-column: 6 / 11;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #1992d4;
+  border: 0px;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
 }
 
 .main-content {
